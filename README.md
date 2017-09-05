@@ -1,4 +1,4 @@
-# MyCalculationSheet
+# My Calculation Sheet [under construction]
 
 This is a small project I use to get a first hand on HTML-CSS-Javascript-Bootstrap-jQuery coding and, incidentally, let my 7-years-old daughter exercise (so this is why the webpage is in French).
 
