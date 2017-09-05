@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ma feuille de calcul</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="jumbotron text-center">
+    <h1>Ma feuille de calcul</h1>
+    <h2> Je choisis, je calcule, je corrige! </h2>
+    </div>
+    <div class="container text-center">
+        <div class="form-group row">  
+                <div class = "col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-2 col-md-offset-2">
+                    <label for = "numberOfCalculations">Nombre de calculs</label>
+                    <select class="form-control" id="numberOfCalculations">
+                        <option>5</option>
+                        <option>10</option>
+                        <option>15</option>
+                        <option>20</option>
+                    </select>
+                </div>
+                <div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-2 col-md-offset-0">    
+                    <label for="operator">Opérateur</label>
+                    <select class="form-control" id="operator">
+                        <option>+</option>
+                        <option>-</option>
+                        <option>x</option>
+                        <option>%</option>
+                    </select>
+                </div>
+                <div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-2 col-md-offset-0">
+                    <label for="upperBound">Résultat maximal</label>
+                    <input type="text" class="form-control" placeholder="Entre un nombre" id="upperBound">
+                </div>
+                <div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-2 col-md-offset-0">
+                    <label for="myCalculations">&nbsp;</label>
+                    <button type="button" class="btn btn-primary btn-block" id = "myCalculations" onclick="InjectEquations()">Mes calculs</button>
+                </div>  
+        </div>    
+    </div>
+    
+    <div class="container text-center">
+        <br> <br> <br>
+        <div class="row">
+            <div class="col-lg-3">
+                <form class = "form-horizontal" id = "equationBlock1">
+                </form>
+            </div>
+            <div class="col-lg-3">
+                <form class = "form-horizontal" id = "equationBlock2">
+                </form>
+            </div>
+            <div class="col-lg-3">
+                <form class = "form-horizontal" id = "equationBlock3">
+                </form>
+            </div>
+            <div class="col-lg-3">
+                <form class = "form-horizontal" id = "equationBlock4">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="MaFeuilleDeCalcul_Bootstrap_Script.js"></script>
+</body>
+</html>
