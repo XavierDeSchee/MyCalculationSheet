@@ -11,7 +11,7 @@
 * change button container color (see http://playground.tensorflow.org)
 * change font (see http://playground.tensorflow.org)
 
-## BOOTSTRAP
+## Bootstrap
 
 * simplify the use of bootstrap classes
 * find way to let input having the same size in all formats
@@ -23,12 +23,13 @@
 
 * refactor code (use module pattern)
 * use JQuery for DOM maniupulation
+* use d3.js (?)
 * add new exercises: 
     * soixante-cinq = 65
     * 1 + ... = 12
     * 15 - 9 = 15 - 5 - 4 = 6
     * ...
 
-## GITHUB
+## GitHub
 
 * add static page on GiHubPages.
