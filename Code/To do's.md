@@ -23,6 +23,7 @@
 
 * refactor code (use module pattern)
 * use JQuery for DOM maniupulation
+* show one calculation at a time (to test)
 * use d3.js (?)
 * add new exercises: 
     * soixante-cinq = 65
